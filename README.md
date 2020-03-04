@@ -1,5 +1,5 @@
 ## Projeto Node (API)
-Projeto criado para demonstrar como podemos criar uma API em node Consumindo 2 bancos de bados: SqlLite E Mongo.
+Projeto criado para demonstrar como podemos criar uma API em node Consumindo 2 bancos de bados: SqLite E Mongo.
 
 ## Instalação
 * npm install
