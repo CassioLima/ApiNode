@@ -4,6 +4,8 @@ Projeto criado para demonstrar como podemos criar uma API em node Consumindo 2 b
 ## Instalação
 * npm install
 * npm install sqlite --save
+* npm install -g nodemon
+* npm install --save-dev nodemon
 
 ## Links de referência:
 * Node Básico --> https://imasters.com.br/back-end/api-http-rest-conceito-e-exemplo-em-node-js
