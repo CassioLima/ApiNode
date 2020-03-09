@@ -22,21 +22,6 @@ const specs = swaggerJsdoc(options);
 const swaggerUi = require('swagger-ui-express');
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
-// config
-/**
- * @swagger
- * /customers:
- *  get:
- *    description: Use to request all customers
- *    responses:
- *      '200':
- *        description: A successful response
- */
-app.get("/customers", (req, res) => {
-    res.status(200).send("Customer results");
-  });
-
-
 module.exports = app;
 
 rotas(app);

@@ -3,10 +3,6 @@ const LivroDao = require('../dao/livro-dao'); //constante tem que ter mesmo nome
 
 module.exports = (app) => {
 
-
-
-
-
     app.get('/', (req, resp) => {
         resp.send(
             '<h1>Servidor express em execução!</h1>'
